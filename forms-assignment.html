@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+
+    <h1 align="center">KATHIRESH</h1>
+    <hr>
+    <hr>
+    <!-- signin form -->
+
+    <h2 align="center">1.SIGNIN FORM</h2>
+
+    <form action="" method="post">
+        <input type="text" placeholder="username" required> <br> <br>
+        <input type="Password" placeholder="password" required> <br> 
+        <input type="checkbox"> remember me <br><br>
+        <button type="submit">SIGNIN</button>
+    </form>
+<hr>
+    <!-- signup form -->
+
+    <h2 align="center">3.SIGNUP FORM</h2>
+    <form  method="post">
+        <input type="text" placeholder="FirstName*" required><br> <br>
+        <input type="text" placeholder="LastName*" required><br><br>
+        <input type="email" placeholder="Email*" required><br><br>
+        <input type="password" placeholder="Password*" required> <br>
+        <p>already a member?<strong>login</strong></p>
+        <button type="submit">SIGN UP</button>
+    </form>
+    <hr>
+
+    <!-- registration form -->
+
+    <h2 align="center">3.REGISTRATION FORM</h2>
+   <form  method="post">
+    <input type="text" placeholder="FirstName*" required> <br><br>
+    <input type="text" placeholder="LastName*" required> <br><br>
+    DOB*:<input type="date" required> <br><br>
+    Gender*: <input type="radio" value="male" name="gender">male <input type="radio" value="female" name="gender">female <br><br>
+    <input type="number" placeholder="mobile number*" required> <br><br>
+    <input type="email" placeholder="email*" required> <br><br>
+    <input type="password" placeholder="password*" required><br><br>
+    <input type="password" placeholder="confirm password*" required><br><br>
+
+    <button type="submit">REGISTER</button>
+   </form>
+   <hr>
+
+   <!-- FORGOT PASSWORD FORM -->
+
+   <h2 align="center">4.FORGOT PASSWORD FORM</h2>
+   <form  method="post">
+       <input type="text" placeholder="Enter your Email or UserName" required>  <br><br>
+        <button type="submit">RESET PASSWORD</button>
+
+        <hr width="30%" align="left"> 
+
+        <input type="Password" placeholder="New Password*" required> <br><br>
+        <input type="Password" required placeholder="Confirm Password*"> <br><br>
+        <button type="submit">RESET</button>
+   </form>
+   <hr>
+
+   <!-- CONTACT FORM -->
+
+   <h2 align="center">5.CONTACT FORM</h2>
+
+  <form  method="post">
+    <input type="text" placeholder="Name*" required> <br><br>
+    <input type="email" placeholder="Email*" required> <br><br>
+    <input type="number" placeholder="Mobile Number*" required> <br><br>
+    <input type="text" placeholder="Subject*" required> <br><br>
+    <textarea  cols="30" rows="6" placeholder="Your Message"></textarea> <br><br>
+    <button type="submit">SEND</button>
+  </form>
+  <hr>
+
+  <!-- payment form -->
+  <h2 align="center">6.PAYMENT FORM</h2>
+  <form  method="post">
+    <p>payment method*</p>
+    <select>
+        <option value="select payment"disable>select payment</option>
+        <option value="debit card">debit card</option>
+        <option value="credit card">credit card</option>
+        <option value="paypal">paypal</option>
+        <option value="UPI">UPI</option>
+    </select> <br><br>
+    <input type="text" placeholder="FirstName*" required> <br><br>
+    <input type="text" placeholder="LastName*" required> <br><br>
+    <input type="number" placeholder="Card Number*" required> <br><br>
+    <input type="number" placeholder="security code(CVC)*" required> <br><br>
+    <input type="number" placeholder="card expiration(MM/YY)*" required> <br><br>
+    <button type="submit">MAKE PAYMENT</button>
+  </form>
+  <hr>
+
+  <!-- feedback form -->
+
+  <h2 align="center">7.FEEDBACK FORM</h2>
+
+  <form  method="post">
+      <h3>STUDENT FEEDBACK</h3>
+      <input type="text" placeholder="Name of the student*" required> <br><br>
+      <input type="text" placeholder="Name of the teacher/instructor*" required> <br><br>
+      <input type="text" placeholder=" subject*" required> <br><br>
+      level of knowledge on start of course*:
+      <select>
+          <option value="beginner">beginner</option>
+          <option value="intermediate">intermediate</option>
+          <option value="advanced"></option>
+      </select> <br><br>
+
+      level of effort invested in course*:
+      <select>
+          <option value="bad">bad</option>
+          <option value="good">good</option>
+          <option value="very good">very good</option>
+      </select> <br><br>
+
+      level of knowledge at the end of the cource*:
+      <select>
+        <option value="bad">bad</option>
+        <option value="good">good</option>
+        <option value="very good">very good</option>
+    </select> <br><br>
+
+    level of instructor communication*:
+    <select>
+        <option value="bad">bad</option>
+        <option value="good">good</option>
+        <option value="very good">very good</option>
+    </select> <br><br>
+    would you recommend this cource for other student:
+    <input type="radio" value="Yes" name="yes-no">Yes <input type="radio" value="No" name="yes-no"> No <br> <br>
+    <textarea  cols="30" rows="4" placeholder="why did you choose this course?"></textarea> <br>
+    <textarea  cols="30" rows="6" placeholder="your feedback*" required></textarea> <br><br>
+    <input type="submit">
+  </form>
+  <hr>
+
+  <!-- order/delivery form -->
+
+  <h2 align="center">8.ORDER FORM</h2>
+  <form  method="post">
+      product*:
+      <select>
+          <option value="select">select product</option>
+          <option value="bags">bags</option>
+          <option value="--">--</option>
+          <option value="--">--</option>
+          <option value="--">--</option>
+          <option value="--">--</option>
+      </select> <br> <br>
+      <input type="text" placeholder="Name*" required> <br><br>
+      <input type="number" placeholder="Mobile Number*" required> <br><br>
+      <input type="email" placeholder="Email" required> <br><br>
+      Delivery address: <br>
+      <input type="text" placeholder="address line 1*" required> <br><br>
+      <input type="text" placeholder="address line 2"> <br><br>
+      <input type="text" placeholder="Land mark*" required> <br><br>
+      <input type="text" placeholder="city*" required> <br><br>
+      <input type="number" placeholder="zipcode*" required> <br><br>
+      <input type="text" placeholder="state*" required> <br><br>
+      <input type="text" placeholder="country*" required> <br> <br>
+      payment*:
+      <select>
+          <option value="select" > select payment</option>
+          <option value="UPI">UPI</option>
+          <option value="credit/debit card">credit/debit card"</option>
+          <option value="net banking">net banking</option>
+          <option value="cash on delivary">cash on delivary</option>
+      </select> <br> <br>
+      <button type="submit">PLACE ORDER</button>
+  </form>
+  <hr>
+
+  <!-- COMPLAINT FORM -->
+
+<h2 align="center">9.COMPLAINT FORM</h2>
+
+<form method="post">
+    <input type="text" placeholder="costomer name*" required> <br><br>
+    <input type="text" placeholder="costomer id*" required> <br><br>
+    <input type="text" placeholder="costomer number*" required> <br><br>
+    date of filling the form*:<input type="date" required> <br><br>
+    <input type="text" placeholder="address*" required> <br><br>
+    <input type="text" placeholder="city*" required> <br><br>
+    <input type="number" placeholder="pincode*" required> <br><br>
+    <textarea cols="30" rows="5" placeholder="complaint details*" required></textarea> <br>
+    <textarea cols="30" rows="5" placeholder="please provide any additional information "></textarea> <br><br>
+
+    <button type="submit">SEND</button>
+</form>
+<hr>
+
+<!-- MCQ form -->
+
+<h2 align="center">10.MCQ FORM</h2>
+<form  method="post">
+    <h3>student MCQ</h3>
+
+    <input type="text" placeholder="Name*" required> <br> <br>
+    <input type="text" placeholder="Reg.No*" required> <br> <br>
+    class: <br>
+  <input type="radio" name="class"> BCA-A <br>
+    <input type="radio" name="class">BCA-B <br>
+    <input type="radio" name="class">BCA-C <br>
+    <p>array in c# are _____ object</p>
+    <input type="radio" name="qus-1">arithmetic<br>
+    <input type="radio" name="qus-1">logical<br>
+    <input type="radio" name="qus-1">reference<br>
+    <input type="radio" name="qus-1">value<br>
+    <p>is it possible to store multiple data types in system array?</p>
+    <input type="radio" name="qus-2">yes<br>
+    <input type="radio" name="qus-2">no<br>
+    <p>which of the following is/are not types of array in c#?</p>
+    <input type="radio" name="qus-3">single-dimentional<br>
+    <input type="radio" name="qus-3">multidimentional<br>
+    <input type="radio" name="qus-3">jazzed array<br>
+    <input type="radio" name="qus-3">jagged array<br> <br>
+
+    <button type="submit">SUBMIT</button>
+</form>
+<hr>
+
+<!-- application form -->
+<h2 align="center">11.ADMISSION FORM</h2>
+<h3>student admission form</h3>
+
+<form  method="post">
+    1.name of student* :<input type="text" required><br> <br>
+    2.date of birth*: <input type="date" required> <br> <br>
+    3.gender*: <input type="radio" name="std-gender" value="male">male
+     <input type="radio" name="std-gender" value="female">female
+     <input type="radio" name="std-gender" value="transgender">transgender <br><br>
+    4.father's name*: <input type="text" required> <br> <br>
+    5.mother's name*: <input type="text" required> <br> <br>
+    6.occupation*: father <input type="text" required> mother <input type="text" required> <br> <br>
+    7.address* :- residential <input type="text" required> office <input type="text"> <br><br>
+    8.phone No* :- residential <input type="number" required> office <input type="number"><br><br>
+    9.name and address of guardian: <br>
+    <textarea></textarea> <br><br>
+    10.nationality*: <input type="text" required><br><br>
+    11.class in which admission sought*: <input type="text" required><br><br>
+    12.admitted to class*: <input type="text" required><br><br>
+    <input type="submit">
+</form>
+<hr>
+
+<!-- reservation form -->
+
+<h2 align="center">12.RESERVATION FORM</h2>
+
+<h3>hotel reservation form</h3>
+<form  method="post">
+reservation details <br>
+name*: <input type="text" required> <br> <br>
+phone No*: <input type="number" required> <br><br>
+email*: <input type="email"> <br><br>
+address*: <input type="text" required> <br><br>
+city*: <input type="text" required> <br><br>
+state*: <input type="text" required> <br><br>
+zipcode*: <input type="number" required> <br><br>
+check in date*: <input type="date" required> <br><br>
+check in time*: <input type="time" required> <br><br>
+check out date*: <input type="date" required> <br><br>
+check out time*: <input type="time" required> <br><br>
+room preference*: <br>
+<input type="radio" name="rooms">standard<br>
+<input type="radio" name="rooms">deluex<br>
+<input type="radio" name="rooms">suite<br> <br>
+adults*: <input type="number" required> <br><br>
+chlidren*: <input type="number" required> <br><br>
+
+special instructions: <br>
+<textarea cols="30" rows="5"></textarea> <br><br>
+
+<button type="submit">BOOK NOW</button>
+</form>
+<hr>
+
+<!-- banking form -->
+
+<h2 align="center">13.BANKING FORM</h2>
+<h3>account closing form</h3>
+<form  method="post">
+    name on account*: <input type="text" placeholder="first name" required> <input type="text" placeholder="lasr name" required> <br><br>
+    account number*: <input type="number" required><br><br>
+
+    address*: <br>
+    <input type="text" placeholder="street address*" required><br><br>
+    <input type="text" placeholder="street address line 2"><br><br>
+    <input type="text" placeholder="city*" required><br><br>
+    <input type="text" placeholder="state*" required><br><br>
+    <input type="text" placeholder="zip code*" required><br><br>
+    <input type="text" placeholder="country*" required><br><br>
+    company name*: <input type="text" required><br><br>
+    phone No*: <input type="number" placeholder="area code" required> <input type="number" required placeholder="phone number"><br><br>
+    Email*: <input type="email" required><br><br>
+    date*: <input type="date" required><br><br>
+    sign*: <br>
+    <textarea required></textarea><br><br>
+    <input type="submit">
+</form> 
+<hr>
+
+<!-- search form -->
+
+<h2 align="center">14.SEARCH FORM</h2>
+<form method="post">
+    <h3>search for vaccine and slots</h3>
+
+    <input type="text" placeholder="state" required><br><br>
+    <input type="text" placeholder="district" required><br><br>
+    <input type="checkbox" value="robot">Iam not a robot <br>
+
+    <button type="submit">SEARCH FOR VACCINE</button>
+</form>
+<hr>
+
+<!-- donation form -->
+<h2 align="center">15.DONATION FORM</h2>
+
+<form method="POST">
+    name*: <input type="text" required><br><br>
+    mobile No*: <input type="number" required><br><br>
+    address: <input type="text"><br><br>
+    donation details: <br>
+    donation type*: <input type="radio" value="one-time"name="donation">one-time
+    <input type="radio" value="monthly" name="donation">monthly 
+    <input type="radio" name="donation"value="annually">annually <br><br>
+    donation amount*: <br>
+    <input type="radio" value="100" name="donation-amount">100rs <br>
+    <input type="radio" value="300" name="donation-amount">300rs <br>
+    <input type="radio" value="500" name="donation-amount">500rs <br>
+    <input type="radio" value="1000" name="donation-amount">1000rs <br>
+    <input type="number" placeholder="custom amount"><br><br>
+    <input type="checkbox" value="pledge">dedicate my donation in honor or in memory of someone <br><br>
+
+    message for the recipient(optional): <br>
+    <textarea cols="30" rows="4"></textarea> <br><br>
+
+    <button type="submit">SEND</button>
+    
+</form>
+
+
+
+</body>
+</html>
